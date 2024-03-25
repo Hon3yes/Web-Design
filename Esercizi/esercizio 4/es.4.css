@@ -1,0 +1,38 @@
+h1{
+    background-color: rgb(64, 111, 88);
+    color:white;
+    font-family:'Times New Roman', Times, serif
+}
+h2{
+    background-color: rgb(135, 145, 103);
+    color:white;
+    font-family:'Times New Roman', Times, serif
+}
+p{
+    background-color: rgb(119, 128, 125);
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 125%;
+    
+}
+a{
+    color:hwb(0 16% 84%)
+}
+a:hover{
+    color:gray
+}
+img{
+    width: 350px;
+    height: auto;
+    margin: 5px;
+    border-width: medium;
+    border: 3px dashed rgb(66, 109, 81);
+    padding:2px;
+}
+#a2img{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start
+}
