@@ -36,3 +36,10 @@ img{
     justify-content: center;
     align-items: flex-start
 }
+#a3img{
+    display:grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}

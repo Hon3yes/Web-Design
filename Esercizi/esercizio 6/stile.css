@@ -1,0 +1,28 @@
+#absolute {
+position: absolute;
+top:30px;
+right:30px;
+width: 200px;
+height:100px;
+background-color: blueviolet;
+}
+#fixed {
+  position: fixed;
+  bottom:20px;
+  right:20px;  
+  width: 200px;
+  height:auto;
+  background-color: blue
+}
+#sticky {
+    position: sticky;
+    top: 50px;
+    width: 200px;
+    height:auto;
+    background-color:black
+}
+#normal {
+width: 200px;
+height:auto;
+
+}

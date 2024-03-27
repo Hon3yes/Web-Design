@@ -1,0 +1,27 @@
+#magenta{
+    width: 200px;
+    height: 100px;
+    background-color:magenta;
+    transition-property: transform;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+#magenta:hover{
+    transform: translateX(50px)
+}
+#blu{
+    width: 200px;
+    height: 100px;
+    background-color:blue;
+    animation-name: aaa;
+    animation: aaa 1s infinite alternate;
+}
+@keyframes aaa{
+    0%{
+    background-color: blue;
+}
+    100% {
+        background-color: red;
+    }
+
+}
